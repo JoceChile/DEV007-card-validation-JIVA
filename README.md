@@ -127,12 +127,16 @@ El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
 ## 5. Desarrollo del proyecto
 
 ACA DEBO INSERTAR LAS IMAGENES
-[![](https://vscode.dev/github/JoceChile/DEV007-card-validation-JIVA/blob/9b0861bb89a3c690251145fc6aeb33b66658c94e/src/imagenes/card.jpg)]
+
+![](C:/Users/jocel/Desktop/Laboratoria/Card Validation/card.jpg)
+
 
 **1. Pagina validación**
 
 * Una vez realizada la elección de obra a asistir, indicando fecha y 
   ubicaciones, llegara a esta pagina de validación:
+  
+  ![](https://vscode.dev/github/JoceChile/DEV007-card-validation-JIVA/src/imagenes/card.jpg)
   
   PAGINA CARD INICIO
   
