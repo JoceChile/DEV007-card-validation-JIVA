@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+  background: #f4f8f8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#imagen tarjeta-inicio{
+  border: 5px solid darkblue;
+  text-align: center;
+  height: 150;
+  width: 70;
+}
+
+button {
+  width: 20rem;
+  height: 2rem;
+  border-bottom: line solid #0e0c00;
+  border-radius: 1pc;
+  cursor: pointer;
+  text-align: center;
+  font-size: large;
+  background-color: rgb(189, 197, 143);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
