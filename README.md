@@ -63,7 +63,7 @@ para asegurar que la aplicación cubra los objetivos generales.
 Los métodos de `validator` (`isValid` y `maskify`) deben tener cobertura 
 con pruebas unitarias.
 
-**3. El código del proyecto debe ser subido a la repo e interfaz desplegada".**
+**3. El código del proyecto debe ser subido a la repo e interfaz desplegada.**
   
 **4. Un README que contenga una definición del producto.**
   
@@ -131,7 +131,7 @@ El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
 * Una vez realizada la elección de obra a asistir, indicando fecha y 
   ubicaciones, llegara a esta página de validación:
   
-![inicio](imagenesreadme/card.jpg)
+    ![card](imagenesreadme/card.jpg)
   
 **2. Encabezado de página**
 
@@ -140,7 +140,7 @@ El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
 * Invita a ingresar datos solicitados.  
 * Solo informativa.
 
-![encabezado](imagenesreadme/encabezado.jpg)
+    ![encabezado](imagenesreadme/encabezado.jpg)
 
 **3. Caja ingreso números de tarjeta**
 
@@ -148,22 +148,22 @@ El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
 * Solo se pueden ingresar números (no espacios, no letras, no símbolos).
 * Solo puede ingresar dieciséis números (como rango máximo y mínimo).
 
-![numeros](imagenesreadme/numerostarjeta.jpg)
+    ![numeros](imagenesreadme/numerostarjeta.jpg)
 
 * Para realizar la validación el campo debe estar completo.
 
-![ingresar](imagenesreadme/ingresaralldatos.jpg)
+    ![alldatos](imagenesreadme/ingresaralldatos.jpg)
 
 **4. Fecha de vencimiento de tarjeta**
 
 * La misma tarjeta a validar entrega una fecha de vencimiento (Valid Thru). 
   Debe ingresar esa fecha (mes y año).
 
-![ventarj](imagenesreadme/venctarjeta.jpg)
+    ![fecha](imagenesreadme/venctarjeta.jpg)
 
 * Solo podrán ingresar fechas desde mayo 2023 a diciembre 2028.
 
-![inicio](imagenesreadme/fechainicio.jpg) ![fin](imagenesreadme/fechafin.jpg)
+    ![inicio](imagenesreadme/fechainicio.jpg)  ![fin](imagenesreadme/fechafin.jpg)
 
 * Para realizar la validación el campo debe estar completo.
 
@@ -175,31 +175,31 @@ El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
 * Solo puede ingresar tres números (como rango máximo y mínimo).
 * Para realizar la validación el campo debe estar completo.
 
-![cvv](imagenesreadme/cvv.jpg)
+    ![cvv](imagenesreadme/cvv.jpg)
 
 **6. Validación**
 
 * Botón validar ejecuta el algoritmo.
 
-![boton](imagenesreadme/validar.jpg)
+    ![validar](imagenesreadme/validar.jpg)
 
 * Tendremos dos mensajes disponibles:
 
   - `"Tarjeta " NUMERO DE TARJETA ENMASCARADO" Válida. Muchas gracias por 
     su compra."` 
   
-  ![valida](imagenesreadme/tarjetavalida.jpg)
+      ![tarjetaok](imagenesreadme/tarjetavalida.jpg)
   
   - `"NUMERO DE TARJETA ENMASCARADO"`: es el numero ingresado por usted, se 
     entrega con visión solo de últimos cuatro dígitos para mayor seguridad
     de sus datos.
     
-  ![maskify](imagenesreadme/maskify.jpg)
+      ![enmascarado](imagenesreadme/maskify.jpg)
     
   - `"Tarjeta No Válida, por favor intente con otra tarjeta u otro medio 
     de pago."` 
 
-  ![novalida](imagenesreadme/novalida.jpg)
+      ![novalida](imagenesreadme/novalida.jpg)
 
 **7. Validar otra tarjeta**
 
@@ -208,7 +208,7 @@ El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
    Al hacer click en este botón se borran todos los datos ingresados, así
    podrá ingresar fácilmente los datos de la nueva tarjeta.
 
-  ![reload](imagenesreadme/reload.jpg)
+    ![reload](imagenesreadme/reload.jpg)
 
 ## 6. Material utilizado
 
